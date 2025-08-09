@@ -13,10 +13,14 @@ table, th, td {
     <script src="script.js"></script>
 </head>
 <div>
+   <!--Ordenar tabela por preço com java se der--> 
 <title>Cosmic Hacks</title>
 <link rel="stylesheet" href="styles.css">
   <body>
-  
+<p>
+  <h1>Cosmic Hacks</h1>
+  <p>Bem-vindo ao Cosmic Hacks!</p>
+  Cosmic Hacks é um site de venda de cheats para jogos como Valorant, DBD, R6, LoL, FN, RL e outros. Aqui você encontra uma tabela com os principais cheats disponíveis, seus preços e características.</p>
     <img src="imagens/trapacascomiscas.png" alt="Logo Cosmic Hacks" style="width:300px;">
     <h1>Tabela dos Cheats</h1>
     <table style="width:30%">
@@ -25,40 +29,96 @@ table, th, td {
       <th>Valuer</th>
       <th>WDHH</th>
       <th>Time</th>
+      <th>Estoque</th>
     <!--What  does this have = WDHH--> 
   </tr>
   <tr>
-    <td>Cosmic 1.0 Max</td>
-    <td>R$ 50,00</td>
-    <td>Wall Hack, Aimbot, Painel</td>
-    <td>1 Week</td>
+      <td>Cosmic 1.0 Max</td>
+      <td>R$ 54,90</td>
+      <td>Wall Hack, Aimbot, Painel</td>
+      <td>1 Week</td>
+      <td>213</td>
   </tr>
   <tr>
-    <td>Citrus 1.0 normal</td>
-    <td>R$ 20,00</td>
-    <td>Wall Hack</td>
-    <td>24 hours</td>
+      <td>Citrus 1.0 normal</td>
+      <td>R$ 19,99</td>
+      <td>Wall Hack, Triggerbot, Bunny Hop</td>
+      <td>24 hours</td>
+      <td>933</td>
   </tr> 
   <tr>
-    <td>Califor</td>
-    <td>R$ 60,00</td>
-    <td>spoofer (Hwid) Valorant</td>
-    <td>1 time</td>
+      <td>Califor SPO</td>
+      <td>R$ 49,90</td>
+      <td>Spoofer Hwid (Valorant, DBD, R6, LoL, FN, RL)</td>
+      <td>1 time</td>
+      <td>60</td>
   </tr> 
   <tr>
-    <td>Califor</td>
-    <td>R$ 520,00</td>
-    <td>Cokien Valorant</td>
-    <td>All life</td>
+      <td>Bullholder</td>
+      <td>R$ 520,90</td>
+      <td>Cokien Valorant, Low FOV aimbot, Spinbot, Anti-Flash, Skin Changer, </td>
+      <td>All life</td>
+      <td>10</td>
   </tr>
   <tr>
-    <td>Danager</td>
-    <td>R$ 90,00</td>
-    <td>Painel, ALL, Aimbot</td>
-    <td>3 Weeks</td>
+      <td>Danager</td>
+     <td>R$ 99,90</td>
+      <td>Painel, ALL, Aimbot, Triggerbot, No Clip, Recoil Control </td>
+     <td>3 Weeks</td>
+      <td>23</td>
+  </tr>
+   <tr>
+      <td>ALLWIN</td>
+      <td>R$ 849,99</td>
+      <td>Painel, ALL, Aimbot, Triggerbot, No Clip, Infinite Health, God Mode </td>
+      <td>All Life</td>
+      <td>01</td>
   </tr>
 </table>
 </div>
+<form> 
+<div>
+  <h4>Feedback</h4>
+ 
+  </div> 
+  <p>Gostou do site? Tem alguma sugestão ou crítica construtiva? Deixe seu feedback abaixo!</p>
+  <p>
+      <label for="name"></label> 
+      <input type="text" id="fname" name="fname" pattern="^[A-Za-zÀ\s]{4,}$" placeholder="Seu nome" required>
+      <!--Não sei pq ta vermelho, mas ta funcionando às vezes--> 
+
+      <label for="email"></label>
+      <input type="text" id="email" name="email" placeholder="Seu email" required>
+      </p>
+
+    
+    <div>   
+      <div>
+        <p>
+        <input type="area" id="subject" name="subject" placeholder="Feedback..." style="height:200px"></input required>
+        <input type="submit" value="Enviar">
+        </p>
+      </div>
+      <div>
+
+        <p><label for="Seu preferido">Qual cheat você gostaria?</label>
+        <select id="preferido" name="preferido">  
+          <option value="Cosmic 1.0 Max">Cosmic 1.0 Max</option>
+          <option value="Citrus 1.0 normal">Citrus 1.0 normal</option>
+          <option value="Califor SPO">Califor SPO</option> 
+          <option value="Califor SPO">Bullholder</option> 
+          <option value="Califor SPO">Danager</option> 
+          <option value="Califor SPO">ALLWIN</option> 
+          </p>
+    </form>
+    <!--Depois vamo tacar css nisso ta muito feio slk kkkk todo desorganizado o site--> 
+
+    <h3>Sites Referencias</h3>
+    <ul>
+        <li><a href="https://cosmocheats.com/?gad_campaignid=22349409589">Site oficial</a></li>
+        <li><a href="#">https://www.sussytoons.wtf/lista/3499</a></li>
+    </ul>
+    <!--Aqui eu usei esses dois sites como refe pq gostei muito do designer deles--> 
     
 </body>
 </html>
