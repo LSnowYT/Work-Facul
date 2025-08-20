@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt BR">
 <head>
-<style>
-table, th, td {
-  border:1px solid black;
-}
-</style>
-    <meta charset="UTF-8">
+     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cosmic Hacks</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
+<style>
+table, th, td {
+  border:1px solid black;
+border: 1px solid black;
+      border-collapse: collapse;
+      padding: 5px;}
+</style>
 </head>
-<div>
    <!--Ordenar tabela por preço com java se der--> 
-<title>Cosmic Hacks</title>
 <link rel="stylesheet" href="styles.css">
   <body>
-<p>
+  <div>
+      <!-- Título principal -->
   <h1>Cosmic Hacks</h1>
   <p>Bem-vindo ao Cosmic Hacks!</p>
   Cosmic Hacks é um site de venda de cheats para jogos como Valorant, DBD, R6, LoL, FN, RL e outros. Aqui você encontra uma tabela com os principais cheats disponíveis, seus preços e características.</p>
+  
     <img src="imagens/trapacascomiscas.png" alt="Logo Cosmic Hacks" style="width:300px;">
+  
+   <!-- Tabela -->
     <h1>Tabela dos Cheats</h1>
-    <table style="width:30%">
+    <table style="width:60%">
+  <thead>
   <tr>
+      <!-- Tabela Incluindo thead -->
       <th>Cheat</th>
       <th>Valuer</th>
       <th>WDHH</th>
       <th>Time</th>
       <th>Estoque</th>
-    <!--What  does this have = WDHH--> 
-  </tr>
-  <tr>
+   </tr>
+      </thead>
+    
+     <!-- Tabela Incluindo tbody -->
+      <tbody>
+        <tr>
       <td>Cosmic 1.0 Max</td>
       <td>R$ 54,90</td>
       <td>Wall Hack, Aimbot, Painel</td>
@@ -74,43 +83,44 @@ table, th, td {
       <td>All Life</td>
       <td>01</td>
   </tr>
+  </tbody>
+ 
+ <!--rodape com tfoot-->
+  <tfoot>
+        <tr>
+          <td colspan="5">Tabela sujeita a alterações.</td>
+        </tr>
+      </tfoot>
 </table>
 </div>
-<form> 
+<!-- Formulário -->
 <div>
-  <h4>Feedback</h4>
- 
-  </div> 
-  <p>Gostou do site? Tem alguma sugestão ou crítica construtiva? Deixe seu feedback abaixo!</p>
-  <p>
-      <label for="name"></label> 
-      <input type="text" id="fname" name="fname" pattern="^[A-Za-zÀ\s]{4,}$" placeholder="Seu nome" required>
-      <!--Não sei pq ta vermelho, mas ta funcionando às vezes--> 
+    <h3>Feedback</h3>
+    <p>Gostou do site? Tem alguma sugestão ou crítica construtiva? Deixe seu feedback abaixo!</p>
 
-      <label for="email"></label>
-      <input type="text" id="email" name="email" placeholder="Seu email" required>
-      </p>
+    <form>
+      <label for="fname">Nome:</label>
+      <input type="text" id="fname" name="fname" placeholder="Seu nome" required><br><br>
 
-    
-    <div>   
-      <div>
-        <p>
-        <input type="area" id="subject" name="subject" placeholder="Feedback..." style="height:200px"></input required>
-        <input type="submit" value="Enviar">
-        </p>
-      </div>
-      <div>
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" placeholder="Seu email" required><br><br>
 
-        <p><label for="Seu preferido">Qual cheat você gostaria?</label>
-        <select id="preferido" name="preferido">  
-          <option value="Cosmic 1.0 Max">Cosmic 1.0 Max</option>
-          <option value="Citrus 1.0 normal">Citrus 1.0 normal</option>
-          <option value="Califor SPO">Califor SPO</option> 
-          <option value="Califor SPO">Bullholder</option> 
-          <option value="Califor SPO">Danager</option> 
-          <option value="Califor SPO">ALLWIN</option> 
-          </p>
+      <label for="subject">Mensagem:</label><br>
+      <textarea id="subject" name="subject" placeholder="Escreva seu feedback..." style="width:300px; height:100px;"></textarea><br><br>
+
+      <label for="preferido">Qual cheat você gostaria?</label>
+      <select id="preferido" name="preferido">  
+        <option value="Cosmic 1.0 Max">Cosmic 1.0 Max</option>
+        <option value="Citrus 1.0 normal">Citrus 1.0 normal</option>
+        <option value="Califor SPO">Califor SPO</option>
+        <option value="Bullholder">Bullholder</option>
+        <option value="Danager">Danager</option>
+        <option value="ALLWIN">ALLWIN</option>
+      </select><br><br>
+
+      <input type="submit" value="Enviar">
     </form>
+  </div>
     <!--Depois vamo tacar css nisso ta muito feio slk kkkk todo desorganizado o site--> 
 
     <h3>Sites Referencias</h3>
